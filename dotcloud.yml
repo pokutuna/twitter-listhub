@@ -1,5 +1,5 @@
 www:
   type: ruby
 db:
-  type: mysql
+  type: mongodb
 
