@@ -1,2 +1,7 @@
-require File.expand_path(File.dirname(__FILE__)) + '/app'
+$:.unshift(File.dirname(__FILE__))
+$:.unshift(File.dirname(__FILE__) + '/lib')
+
+require 'sinatra'
+require 'app'
+
 run Sinatra::Application
